@@ -1,0 +1,37 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+.sidebar {
+  height: 40vh;
+  margin-top: 2rem;
+}
+.funcsidebar {
+  height: 33.3333%;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: black;
+  color: lightgrey;
+  max-width: 15rem;
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+.h2style {
+  margin-bottom: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: lightgrey;
+}
+.btn {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 12px;
+  line-height: 1.5rem;
+  border-radius: 6px;
+  background-color: rgb(68 64 60);
+  color: rgb(168 162 158);
+}
